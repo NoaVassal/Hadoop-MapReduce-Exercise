@@ -4,7 +4,7 @@
 
 **Q1. How many files are there now?**
 
-There are 6 output files (`part-00000` to `part-00005`), plus one `_SUCCESS` file.
+There are 6 output files.
 
 **Q2. Did the number of mappers change?**
 
@@ -12,7 +12,7 @@ No, the number of mappers remained 9 because the input files and input splits di
 
 **Q3. Did the number of reducers change?**
 
-Yes, the number of reducers increased from 3 to 6 because we added the parameter `-numReduceTasks 6`.
+Yes, the number of reducers increased from 3 to 6 because we added the parameter numReduceTasks 6.
 
 **Q4. Did the number of output files change? Why?**
 
